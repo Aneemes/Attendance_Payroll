@@ -1,0 +1,55 @@
+.content-wrapper{
+    margin-left:200px;
+    padding-left: 10%;
+    padding-top: 0.3%;
+    padding-bottom: 5%;
+    background-color: whitesmoke;
+}
+body { margin: 0 } 
+.for-flex{
+    display: flex; 
+    flex-wrap: wrap; 
+}
+.for-padding{
+    padding-right: 1rem; 
+    padding-left: 1rem; 
+
+    @media (min-width: 640px) { 
+    width: 50%; 
+    }
+
+    @media (min-width: 1024px) { 
+    width: 25%; 
+    }
+}
+.select-year{
+    display: block; 
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem; 
+    padding-left: 0.5rem;
+    padding-right: 0.9rem; 
+    margin-bottom: 0.25rem; 
+    margin-right: 0.25rem; 
+    background-color: #ffffff; 
+    color: #1F2937; 
+    font-size: 1rem;
+    line-height: 1.5rem; 
+    line-height: 1.5; 
+    width: 100%; 
+    border-radius: 0.25rem; 
+    border-width: 1px; 
+    border-color: #E5E7EB; 
+    appearance: none;
+}
+.padding-row{ 
+    padding-right: 1rem; 
+    padding-left: 1rem; 
+
+    @media (min-width: 640px) { 
+    width: 100%; 
+    }
+}
+
+.small-box{
+    width:30%;
+}

@@ -1,0 +1,222 @@
+.error-msg{
+    position: relative; 
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem; 
+    padding-left: 0.75rem;
+    padding-right: 0.75rem; 
+    margin-bottom: 1rem; 
+    background-color: #FECACA; 
+    color: #991B1B; 
+    border-radius: 0.25rem; 
+    border-width: 1px; 
+    border-color: #FCA5A5; 
+}
+.success-msg{
+    position: relative; 
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem; 
+    padding-left: 0.75rem;
+    padding-right: 0.75rem; 
+    margin-bottom: 1rem; 
+    background-color: #A7F3D0; 
+    color: #065F46; 
+    border-radius: 0.25rem; 
+    border-width: 1px; 
+    border-color: #6EE7B7; 
+}
+.button-top{
+    position: absolute; 
+    top: 0; 
+    right: 0; 
+    bottom: 0; 
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem; 
+    padding-left: 1rem;
+    padding-right: 1rem;  
+}
+
+.for-flex{
+    display: flex; 
+    flex-wrap: wrap;
+}
+.flex-padding{
+    padding-right: 1rem; 
+    padding-left: 1rem; 
+
+    @media (min-width: 640px) { 
+    width: 100%; 
+    }
+}
+
+.edit-btn{
+    display: inline-block; 
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem; 
+    padding-left: 0.5rem;
+    padding-right: 0.5rem; 
+    background-color: #10B981; 
+    color: #ffffff; 
+    font-size: 1.6rem;
+    line-height: 1rem; 
+    font-weight: 400; 
+    line-height: 1.5; 
+    text-align: center; 
+    text-decoration: none; 
+    vertical-align: middle; 
+    border-radius: 0.25rem; 
+    border-width: 1px; 
+    user-select: none; 
+    
+    
+}
+.edit-btn    :hover {
+    background-color: #059669; 
+    }
+
+.delete-btn{
+    display: inline-block; 
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem; 
+    padding-left: 0.5rem;
+    padding-right: 0.5rem; 
+    background-color: #DC2626; 
+    color: #ffffff; 
+    font-size: 1.6rem;
+    line-height: 1rem; 
+    font-weight: 400; 
+    line-height: 1.5; 
+    text-align: center; 
+    text-decoration: none; 
+    vertical-align: middle; 
+    border-radius: 0.25rem; 
+    border-width: 1px; 
+    user-select: none; 
+
+}
+.delete-btn:hover {
+    background-color: #B91C1C; 
+    }
+
+.for-ol-top{
+    display: flex; 
+    padding-top: 1rem;
+    padding-bottom: 1rem; 
+    padding-left: 1rem;
+    padding-right: 1rem; 
+    padding-top: 0.75rem; 
+    padding-bottom: 0.75rem; 
+    margin-bottom: 1rem; 
+    background-color: #E5E7EB; 
+    flex-wrap: wrap; 
+    border-radius: 0.25rem; 
+}
+
+.new-btn{
+    display: inline-block; 
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem; 
+    padding-left: 0.5rem;
+    padding-right: 0.5rem; 
+    background-color: #2563EB; 
+    color: #ffffff; 
+    font-size: 1.6rem;
+    line-height: 1rem; 
+    font-weight: 400; 
+    line-height: 1.8; 
+    text-align: center; 
+    text-decoration: none; 
+    vertical-align: middle; 
+    border-radius: 0.25rem; 
+    border-width: 1px; 
+    user-select: none; 
+
+}
+.new-btn:hover {
+    background-color: #2563EB; 
+}
+.status{
+    align-content: center;
+}
+
+.form-flex{
+    display: flex; 
+    align-items: center; 
+}
+.inside-form{
+    display: flex; 
+    position: relative; 
+    align-items: stretch; 
+    width: 100%; 
+}
+.calendar{
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem; 
+    padding-left: 0.5rem;
+    padding-right: 0.5rem; 
+    margin-bottom: 0.25rem; 
+    background-color: #D1D5DB; 
+    color: #111827; 
+    font-size: 1rem;
+    line-height: 1.5rem; 
+    font-weight: 400; 
+    line-height: 1.5; 
+    text-align: center; 
+    border-radius: 0.25rem; 
+    border-width: 1px; 
+    border-width: 4px; 
+    border-color: #F3F4F6; 
+
+}
+.inps-payroll{
+    padding-right: 1rem; 
+    padding-left: 1rem; 
+
+}
+.payroll-btn{
+    display: inline-block; 
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem; 
+    padding-left: 0.5rem;
+    padding-right: 0.5rem; 
+    background-color: #10B981; 
+    color: #ffffff; 
+    font-size: 1.5rem;
+    line-height: 1rem; 
+    font-weight: 400; 
+    line-height: 1.25; 
+    text-align: center; 
+    text-decoration: none; 
+    vertical-align: middle; 
+    border-radius: 0.25rem; 
+    border-width: 1px; 
+    user-select: none; 
+
+}
+.payroll-btn:hover {
+    background-color: #059669; 
+    }
+.payslip-btn{
+    display: inline-block; 
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem; 
+    padding-left: 0.5rem;
+    padding-right: 0.5rem; 
+    background-color: #2563EB; 
+    color: #ffffff; 
+    font-size: 1.5rem;
+    line-height: 5rem; 
+    font-weight: 400; 
+    line-height: 1.25; 
+    text-align: center; 
+    text-decoration: none; 
+    vertical-align: middle; 
+    border-radius: 0.25rem; 
+    border-width: 1px; 
+    user-select: none; 
+
+
+}
+
+.payslip-btn:hover {
+    background-color: #2563EB; 
+    }

@@ -1,0 +1,25 @@
+{
+  "files.exclude": {
+    "*.vscode": true,
+    "*.vscode.*": true,
+    "*admin.*": true,
+    "*attendance": true,
+    "*attendance.*": true,
+    "*conn": true,
+    "*conn.*": true,
+    "*css": true,
+    "*css.*": true,
+    "*header": true,
+    "*header.*": true,
+    "*images": true,
+    "*images.*": true,
+    "*imports": true,
+    "*imports.*": true,
+    "*index": true,
+    "*index.*": true,
+    "*scripts": true,
+    "*scripts.*": true,
+    "*timezone": true,
+    "*timezone.*": true
+  }
+}

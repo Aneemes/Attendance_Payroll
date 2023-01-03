@@ -1,0 +1,153 @@
+.button-top{
+    position: absolute; 
+    top: 0; 
+    right: 0; 
+    bottom: 0; 
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem; 
+    padding-left: 1rem;
+    padding-right: 1rem;  
+}
+
+
+.label-pos{
+    padding-right: 1rem; 
+    padding-left: 1rem; 
+
+    @media (min-width: 640px) { 
+    width: 25%; 
+    }
+}
+
+.margin-bottom{
+    margin-bottom: 1rem; 
+}
+
+.label-padding{
+    padding-right: 1rem; 
+    padding-left: 1rem; 
+
+    @media (min-width: 640px) { 
+    width: 75%; 
+    }
+}
+
+.pos-input-field{
+    display: block; 
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem; 
+    padding-left: 0.5rem;
+    padding-right: 0.5rem; 
+    margin-bottom: 0.25rem; 
+    background-color: #ffffff; 
+    color: #1F2937; 
+    font-size: 1rem;
+    line-height: 1.5rem; 
+    line-height: 1.5; 
+    width: 100%; 
+    border-radius: 0.25rem; 
+    border-width: 1px; 
+    border-color: #E5E7EB; 
+    appearance: none; 
+}
+
+.close-button{
+    display: inline-block; 
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem; 
+    padding-left: 0.75rem;
+    padding-right: 0.75rem; 
+    font-weight: 400; 
+    line-height: 1.5; 
+    text-align: center; 
+    text-decoration: none; 
+    vertical-align: middle; 
+    border-radius: 0.25rem; 
+    border-width: 1px; 
+    user-select: none; 
+}
+
+.save-button{
+    display: inline-block; 
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem; 
+    padding-left: 0.75rem;
+    padding-right: 0.75rem; 
+    background-color: #2563EB; 
+    color: #ffffff; 
+    font-weight: 400; 
+    line-height: 1.5; 
+    text-align: center; 
+    text-decoration: none; 
+    vertical-align: middle; 
+    border-radius: 0.25rem; 
+    border-width: 1px; 
+    user-select: none; 
+}
+
+.save-button:hover {
+    background-color: #2563EB; 
+}
+
+.delete-button{
+    display: inline-block; 
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem; 
+    padding-left: 0.75rem;
+    padding-right: 0.75rem; 
+    background-color: #DC2626; 
+    color: #ffffff; 
+    font-weight: 400; 
+    line-height: 1.5; 
+    text-align: center; 
+    text-decoration: none; 
+    vertical-align: middle; 
+    border-radius: 0.25rem; 
+    border-width: 1px; 
+    user-select: none; 
+
+}
+.delete-button:hover {
+    background-color: #B91C1C; 
+}
+
+.update-pos{
+    display: inline-block; 
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem; 
+    padding-left: 0.75rem;
+    padding-right: 0.75rem; 
+    background-color: #10B981; 
+    color: #ffffff; 
+    font-weight: 400; 
+    line-height: 1.5; 
+    text-align: center; 
+    text-decoration: none; 
+    vertical-align: middle; 
+    border-radius: 0.25rem; 
+    border-width: 1px; 
+    user-select: none; 
+}
+
+.update-pos:hover {
+    background-color: #059669; 
+}
+
+.time-pick{
+    display: block; 
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem; 
+    padding-left: 0.5rem;
+    padding-right: 0.5rem; 
+    margin-bottom: 0.25rem; 
+    background-color: #ffffff; 
+    color: #1F2937; 
+    font-size: 1rem;
+    line-height: 1.5rem; 
+    line-height: 1.5; 
+    width: 100%; 
+    border-radius: 0.25rem; 
+    border-width: 1px; 
+    border-color: #E5E7EB; 
+    appearance: none; 
+}
